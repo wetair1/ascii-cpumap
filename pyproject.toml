@@ -1,0 +1,19 @@
+[project]
+name = "ascii-cpumap"
+version = "0.1.0"
+description = "ASCII curses per-core CPU heatmap"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "wetair1" }]
+keywords = ["ascii", "curses", "terminal", "tui", "cpu", "heatmap"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Environment :: Console :: Curses",
+  "Operating System :: POSIX :: Linux",
+]
+dependencies = []
+
+[tool.ascii-cpumap]
+entrypoint = "main.py"
+stdlib_only = true
